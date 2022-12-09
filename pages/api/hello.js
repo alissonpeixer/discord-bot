@@ -73,7 +73,7 @@ client.on("messageCreate", async (interaction) => {
 });
 
 
-client.login("ODg3Nzk3NDU3MDIxNDQ0MTI4.GVr1Th.0hPmgaYa6o9-xSH7GmyvME6f-JOuZBBmCaJl44");
+client.login(process.env.TOKEN);
 
 
 export default function handler(req, res) {
