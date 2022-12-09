@@ -1,4 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+
+export default function handler(req, res) {
+
 const { PlayerManager } = require("discord-player-plus");
 const { Client, GatewayIntentBits, Partials } = require("discord.js")
 
@@ -76,6 +79,10 @@ client.on("messageCreate", async (interaction) => {
 client.login(process.env.TOKEN);
 
 
-export default function handler(req, res) {
+
   res.status(200).json({ name: 'John Doe' })
+
+
+
+
 }
