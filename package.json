@@ -13,6 +13,7 @@
     "discord.js": "^14.7.1",
     "ffmpeg": "^0.0.4",
     "libsodium-wrappers": "^0.7.10",
+    "spotify-web-api-node": "^5.0.2",
     "ytdl-core": "^4.11.2",
     "ytsr": "^3.8.0"
   },
